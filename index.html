@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Nauzet Doreste García. Diseñador y desarrollador web en formación especializado en HTML, CSS y diseño responsive."
+    />
+    <meta name="author" content="Nauzet Doreste García" />
+    <meta
+      name="keywords"
+      content="portafolio, diseño web, desarrollo web, HTML, CSS, diseñador, desarrollador, proyectos web"
+    />
+    <meta name="theme-color" content="#0b0b0b" />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Nauzet Doreste García - Portafolio" />
+    <meta
+      property="og:description"
+      content="Diseñador & Desarrollador web en formación"
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="shortcut icon" href="assets/icon/icon.png" type="image/png" />
+
+    <link
+      rel="preload"
+      href="./assets/fonts/MajorMonoDisplay-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/fonts/PPNeueMontreal-Book.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/fonts/PPNeueMontreal-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/fonts/PPNeueMontreal-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Nauzet Doreste García - Portafolio</title>
+  </head>
+  <body>
+    <a class="sr-only skip-link" href="#main">Saltar al contenido</a>
+
+    <nav class="main-nav" id="nav" aria-label="Navegación principal">
+      <!-- Botón abrir -->
+      <a href="#nav" class="nav-btn nav-open" aria-label="Abrir menú">
+        <span class="line" aria-hidden="true"></span>
+        <span class="line" aria-hidden="true"></span>
+        <span class="line" aria-hidden="true"></span>
+      </a>
+      <!-- Botón cerrar -->
+      <a href="#" class="nav-btn nav-close" aria-label="Cerrar menú">
+        <span class="line" aria-hidden="true"></span>
+        <span class="line" aria-hidden="true"></span>
+        <span class="line" aria-hidden="true"></span>
+      </a>
+      <ul class="nav-list" id="primary-navigation">
+        <li>
+          <a href="#home" class="nav-link" data-icon="arrow">Principal</a>
+        </li>
+        <li>
+          <a href="#proyectos" class="nav-link" data-icon="arrow">Proyectos</a>
+        </li>
+        <li>
+          <a href="#sobre-mi" class="nav-link" data-icon="arrow">Sobre Mí</a>
+        </li>
+        <li>
+          <a href="#contacto" class="nav-link" data-icon="arrow">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Hero / Portada -->
+    <header class="masthead" id="home" aria-label="Portada">
+      <div>
+        <h1 class="brand">Nauzet Doreste García</h1>
+        <p class="role">Diseñador &amp; Desarrollador</p>
+      </div>
+
+      <aside class="main-phrase">
+        <p>«Diseño. Código. Ideas que cobran vida.»</p>
+      </aside>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <!-- Proyectos -->
+      <section
+        id="proyectos"
+        class="section section-portfolio"
+        aria-labelledby="ttl-projects"
+      >
+        <h2 id="ttl-projects">Proyectos</h2>
+
+        <div class="grid">
+          <article class="card">
+            <figure>
+              <img
+                src="./assets/projectsImages/guaguaapp-live-movilidad-en-tiempo-real.jpg"
+                alt="Mockup de GuaguaApp Live en dispositivos"
+                loading="lazy"
+                decoding="async"
+                width="1600"
+                height="900"
+              />
+              <figcaption>
+                <h3>GuaguaApp Live</h3>
+                <p>Movilidad en tiempo real.</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="card">
+            <figure>
+              <img
+                src="./assets/projectsImages/mareas-vientos-dashboard-de-datos-oceanicos-para-surf.jpg"
+                alt="Dashboard Mareas &amp; Vientos con gráficas y datos"
+                loading="lazy"
+                decoding="async"
+                width="1600"
+                height="900"
+              />
+              <figcaption>
+                <h3>Mareas &amp; Vientos</h3>
+                <p>Dashboard de datos oceánicos.</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="card">
+            <figure>
+              <img
+                src="./assets/projectsImages/tostadora-3d-e-commerce-con-customizador.jpeg"
+                alt="Tienda de café con editor 3D del paquete"
+                loading="lazy"
+                decoding="async"
+                width="1600"
+                height="900"
+              />
+              <figcaption>
+                <h3>Tostadora 3D</h3>
+                <p>E-commerce con customizador.</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="card">
+            <figure>
+              <img
+                src="./assets/projectsImages/colmena-whiteboard-colaborativo.jpg"
+                alt="Whiteboard colaborativo con cursores en vivo"
+                loading="lazy"
+                decoding="async"
+                width="1600"
+                height="900"
+              />
+              <figcaption>
+                <h3>Colmena</h3>
+                <p>Whiteboard colaborativo.</p>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+      </section>
+
+      <!-- Sobre mí -->
+      <section
+        id="sobre-mi"
+        class="section section-about"
+        aria-labelledby="ttl-sobre-mi"
+      >
+        <h2 id="ttl-sobre-mi">Sobre Mí</h2>
+
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Soy <strong>Nauzet Doreste García</strong>, estudiante de primer
+              año del Máster en The Power Business School, donde estoy
+              desarrollando mi formación en diseño y desarrollo web. Actualmente
+              estoy creando mi primer portafolio utilizando únicamente HTML y
+              CSS, con el objetivo de sentar una base sólida en el mundo digital
+              y crecer como profesional en el sector.
+            </p>
+          </div>
+          <div class="about-image">
+            <img
+              src="./assets/images/conóceme.png"
+              alt="Letrero de neón rojo con la palabra «CONÓCEME» sobre pared oscura, y reflejo en el suelo"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section
+        id="contacto"
+        class="section section-contacto"
+        aria-labelledby="ttl-contacto"
+      >
+        <h2 id="ttl-contacto">Contacto</h2>
+        <div class="contacto-grid">
+          <form class="contacto-form" role="form" novalidate>
+            <div class="field">
+              <label for="nombre">Nombre</label>
+              <input
+                id="nombre"
+                name="nombre"
+                type="text"
+                placeholder="Tu nombre"
+                autocomplete="name"
+                required
+                aria-required="true"
+              />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Escribe tu email"
+                autocomplete="email"
+                required
+                aria-required="true"
+              />
+            </div>
+
+            <div class="field">
+              <label for="message">Mensaje</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="¿Cómo puedo ayudarte?"
+                required
+                aria-required="true"
+              ></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Pie de página">
+      <p>&copy; 2025 Nauzet Doreste García</p>
+      <ul class="social">
+        <li>
+          <a
+            href="https://instagram.com"
+            aria-label="Instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/socialLinks/instagram.png"
+              alt=""
+              width="24"
+              height="24"
+              loading="lazy"
+              decoding="async"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://wa.me/"
+            aria-label="WhatsApp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/socialLinks/whatsapp.png"
+              alt=""
+              width="24"
+              height="24"
+              loading="lazy"
+              decoding="async"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://linkedin.com"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/socialLinks/linkedin.png"
+              alt=""
+              width="24"
+              height="24"
+              loading="lazy"
+              decoding="async"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://github.com"
+            aria-label="Github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/socialLinks/github.png"
+              alt=""
+              width="24"
+              height="24"
+              loading="lazy"
+              decoding="async"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
